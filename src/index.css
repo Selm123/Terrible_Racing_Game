@@ -25,6 +25,7 @@ code {
   background-size: contain;
   background-repeat: no-repeat;
   border: 0;
+  overflow: hidden;
 }
 
 #enemy {
@@ -47,6 +48,7 @@ code {
   margin: 0 auto;
   background: url(./images/moving_lane.gif) repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 #audio {
