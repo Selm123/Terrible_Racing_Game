@@ -1,13 +1,57 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./images/background.jpeg);
+  background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#car {
+  background-color: transparent;
+  left: 20vw;
+  top: 60vh;
+  position: relative;
+  background-image: url(./images/car.png);
+  width: 300px;
+  height: 220px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
+}
+
+#enemy {
+  background-color: transparent;
+  left: 40vw;
+  top: 40vh;
+  position: absolute;
+  background-image: url(./images/enemy_car.png);
+  width: 142px;
+  height: 102px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
+}
+
+.container {
+  width: 60vw;
+  height: 100vh;
+  background-color: yellow;
+  margin: 0 auto;
+  background: url(./images/moving_lane.gif) repeat;
+  background-size: cover;
+}
+
+#audio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
 }
